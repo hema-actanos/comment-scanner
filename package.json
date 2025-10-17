@@ -1,7 +1,7 @@
 {
   "name": "comment-scanner",
-  "version": "0.1.0",
-  "description": "Scan codebases for commented lines and generate lists, JSON, Markdown, or CSV reports.",
+  "version": "0.3.0",
+  "description": "Scan codebases for comment lines across JS/TS/JSX/TSX/Vue/HTML/CSS/Java/C/C++/C#/Python and output JSON/Markdown/CSV reports.",
   "bin": {
     "comment-scanner": "./bin/comment-scanner"
   },
@@ -12,11 +12,38 @@
     "node": ">=14"
   },
   "keywords": [
+    "comment",
     "comments",
+    "comment lines",
+    "comment-scanner",
     "scanner",
+    "static analysis",
+    "report",
+    "json",
+    "markdown",
+    "csv",
     "cli",
-    "vue",
+    "node",
     "javascript",
-    "css"
-  ]
+    "typescript",
+    "jsx",
+    "tsx",
+    "react",
+    "vue",
+    "html",
+    "css",
+    "python",
+    "java",
+    "c",
+    "cpp",
+    "csharp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hema-actanos/comment-scanner.git"
+  },
+  "homepage": "https://github.com/hema-actanos/comment-scanner#readme",
+  "bugs": {
+    "url": "https://github.com/hema-actanos/comment-scanner/issues"
+  }
 }
